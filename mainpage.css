@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.obox{
+  border: solid 1px;
+  height: 150px;
+  display: flex;
+}
+#inbox1,#inbox2{
+    border:solid 1px;
+    height: 150px;
+    width: 150px;
+}
+#inbox1{
+    width: 150px;
+    
+}
+#inbox2{
+    width: 1880px;
+text-align: center;
+}
+#clgname{
+    font-size: 50px;
+    color: red;
+}
+#scrollclg{
+    font-size: 40px;
+    font-weight: bold;
+    color: aqua ;
+}
+#navbox{
+    border: solid 1px;
+    height:40px;
+}
+ul li{
+    border: solid 1px;
+    height: 40px;
+    width: 172px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(255, 191, 0);
+    margin-right: 1px;
+    margin-bottom: 1px;
+    border-radius: 10px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: azure;
+    font-size: 21px;
+    text-decoration: none;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+ul li:hover{
+    background-color: brown;
+}
+.outerbox{
+    border: solid 1px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#in1,#in2,#in3{
+    border: solid 1px;
+    height: 300px;
+    z-index: -1;
+}
+#in1{
+    width: 500px;
+    background-image: url(ba2.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
+    animation-name: imgchange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes imgchange{
+    10%{
+        background-image: url(ba2.jpg);
+    }
+    20%{
+        background-image: url(ba3.jpg);
+    }
+    30%{
+        background-image: url(ba3.jpg);
+    }
+    40%{
+        background-image: url(ba4.jpg);
+    }
+    50%{
+        background-image: url(ba5.jpg);
+    }
+    60%{
+        background-image: url(ba6.jpg);
+    }
+    70%{
+        background-image: url(ba7.jpg);
+    }
+}
+#in2,#in3{
+    width: 350px;
+
+}
+#placebox{
+    border: solid 1px;
+    height: 280px;
+}
+#games{
+    font-size: 50px;
+    color: rgb(255, 34, 0);
+
+}
